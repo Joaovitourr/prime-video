@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}  body{
+   background-color: #222222;
+   overflow-x: hidden;
+  } main{
+   margin-top: 20px;
+  } html, body{
+   width: 100vw;
+  }
+img{
+    max-width: 400px;
+}   .header{
+    background-color: #19222d;
+height: 4em;
+
+} .logo{
+ display: inline-block;
+} article{
+    background-color:#010306;
+ 
+} 
+
+.logo > img {
+    width: 4em;
+    position: absolute;
+  
+ } ul{
+    text-align: right;
+ } li{
+    display: inline-block;
+ } ul li a {
+    text-decoration: none;
+    color: white;
+     margin-right: 20px;
+ }   .container{
+    margin-top: 15px;
+    text-align: center;
+ }
+ 
+ .titulo-card{
+    text-align: center;
+    color: #ffff;
+    font-size: 20px;
+    margin-bottom: 10px;
+   
+ } .descricao{
+    text-align: center;
+    color: #ffff;
+    font-size: 18px;
+    margin-bottom: 20px;
+ } 
+ 
+ .download{
+    height: 5em;
+    width: 17em;
+    background-color: black;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 0 auto;;
+
+ } .img-0{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 10px;    
+ } .download{
+ display: flex;
+ } .titulo-0{
+    color: white;
+    margin-top: 15px;
+    text-align: left;
+    margin-left: 14px;
+ } .titulo-1{
+    color: #0071eb;
+   font-size: 14px;
+   text-align: left;
+   margin-left: 14px;
+
+
+ } ul li a:hover{
+   transition: 1s ease;
+ border-bottom: 1px solid
+ 
+ 
+  }
+ .img-0 > img{
+    width: 50px;
+    height: 50px;
+ }
+  
+ .download > p {
+    color: white;
+    margin-top: 20px;
+ } .img-box > img{
+    width: 40px;
+    height: 40px;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 15px;
+ } .img-box{
+    text-align: right;
+ } .img-box{
+    text-align: right;
+ }
+ input{
+    margin-top: 10px;
+    width: 15em;
+    padding: 2px;
+    height: 3em;
+    text-align: center;
+    background-color:#0f79af;
+ font-size: 20px;
+ border: none;
+ color: white;
+ } input:hover{
+    cursor: pointer;
+    transition: 2s;
+    color: white;
+ }
+ 
+ .or{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;
+ } 
+ .footer-sociais{
+    text-align: center;
+  
+ } .fa-brands{
+    font-size: 25px;
+ }
+ .fa-twitter{
+    color: #0f79af;
+    
+ } .fa-instagram{
+    color: #cc2f87;
+ }  .footer-sociais > a {
+    text-decoration: none;
+    margin: 20px;
+ } 
+ 
+[data-anime]{
+   opacity: 0;
+   transition: 1s;
+} 
+
+
+[data-anime].animate{
+   opacity: 1;
+   transition: 2s;
+   transform: translate3d(0,0,0);
+} footer{
+   margin-top: 5px;
+   text-align: center;
+}
+footer a{
+   text-decoration: none;
+   color: #ffff;
+   font-size: 20px;
+
+} footer p{
+   color: #ffff;
+   font-size: 20px;
+}

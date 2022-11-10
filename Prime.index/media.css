@@ -1,0 +1,68 @@
+@media screen and (min-width: 1400px){
+    body{
+        overflow-x:hidden;
+      }
+   .left{
+    position: relative;
+    top: 2em;
+    right: 10em;   
+    font-size: 30px;
+  } .descricao-1{
+    position: relative;
+    right: 11em;
+    bottom: 5em;   
+    color: white;
+    font-size: 25px;
+     } #box1{
+        position: relative;
+        left: 12em;
+        top: 0;
+     } .middle-right{
+        position: relative;
+        top: 2em;
+        left: 14em;
+
+     } .descricao-2{
+        position: relative;
+        left: 12em;
+        bottom: 7em;
+        color: white;
+        font-size: 25px;
+     } #box2{
+        position: relative;
+        right: 20em;
+        bottom: 2em;   
+        margin-top: 20px;
+     } .middle-left{
+        position: relative;
+         right: 12.8em;
+         top: 2em;
+       
+
+     } #box3{
+        position: relative;
+        left: 13em;
+        top: 0;
+     } .descricao-3{
+        position: relative;
+        right: 10em;
+        bottom: 6em;   
+        color: white;
+        font-size: 25px;
+     } .reacher{
+        font-size: 32px;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+}   .download{
+    position: relative;
+    bottom: 4em;
+    left: 0;
+}  .footer-sociais{
+   margin-top: 30px;
+   height: 10em;
+   background-color: rgb(5, 5, 5);
+}   .fa-brands{
+   font-size: 2em;
+   margin: 5px;
+
+}
